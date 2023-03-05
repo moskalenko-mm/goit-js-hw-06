@@ -20,5 +20,4 @@ const galleryItems = images
   .map((item) => `<li><img src= ${item.url} alt= ${item.alt}></li>`)
   .join("");
 
-console.log(galleryItems);
 gallery.insertAdjacentHTML("beforeend", galleryItems);
